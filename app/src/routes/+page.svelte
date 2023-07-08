@@ -64,8 +64,7 @@
 	const title = 'Техническая и медицинская перекись водорода крупным и мелким оптом';
 	const description =
 		'Оптовая продажа технической и медицинской перекиси водорода от производителя';
-	const main_text =
-		'Техническая и медицинская перекись водорода в канистрах 10л, 30л и в кубовых ёмкостях по оптовым ценам от заводов производителей с доставкой или самовывозом. Вся продукция сопровождается сертификатами качества.';
+	const main_text = `Техническая и медицинская перекись водорода в канистрах 10л, 30л и в кубовых ёмкостях по оптовым ценам от заводов производителей с доставкой или самовывозом.`;
 	const a_text =
 		'Техническая и медицинская перекись водорода применяются в разных отраслях промышленности и в быту';
 	const b_text = 'Медицинская перекись водорода';
@@ -73,7 +72,7 @@
 	const title_v2 = 'Техническая перекись водорода крупным и мелким оптом';
 	const description_v2 = 'Оптовая продажа технической перекиси водорода от производителя';
 	const main_text_v2 =
-		'Техническая перекись водорода в IBC-контейнерах и в канистрах 30л (34кг) по оптовым ценам от заводов производителей с доставкой или самовывозом. Вся продукция сопровождается сертификатами качества.';
+		'Техническая перекись водорода в IBC-контейнерах и в канистрах 30л (34кг) по оптовым ценам от заводов производителей с доставкой или самовывозом.';
 	const a_text_v2 =
 		'Техническая перекись водорода применяются в разных отраслях промышленности и в быту';
 	const b_text_v2 = 'Техническая перекись водорода';
@@ -372,7 +371,7 @@
 								>
 							</div>
 							<!-- <div class="mt-6 px-5">
-			                            <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-3 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
+			                            <a href="#" class="block w-full rounded-md bg-gradient-to-r from-teal-500 to-cyan-600 py-2 px-4 text-center font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700">Start free trial</a>
 			                        </div>
 			                        <div class="mt-6 px-5">
 			                            <p class="text-center text-base font-medium text-gray-700">Existing customer? <a href="#" class="text-gray-900 hover:underline">Login</a></p>
@@ -389,19 +388,19 @@
 				class="bg-[url('https://storage.yandexcloud.net/brand-logo/biohim/foto/bg.png')] sm:pt-4 sm:pb-36 md:pb-24 lg:pb-0 lg:overflow-hidden"
 			>
 				<div class="mx-auto max-w-7xl lg:px-8">
-					<div class="lg:grid lg:grid-cols-2 lg:gap-4">
+					<div class="lg:grid lg:grid-cols-2 lg:gap-2">
 						<div
-							class=" max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
+							class=" max-w-md px-6 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
 						>
 							<div class="mx-auto lg:py-24 py-12 bg-main bg-opacity-70 px-4">
 								<span
-									class="ml-28 inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
+									class="inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
 									<span
-										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-3 py-1 text-xs sm:text-sm font-semibold leading-5 text-white"
+										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-6 py-1 text-xs sm:text-sm font-semibold leading-5 text-white"
 										>Перекись водорода</span
 									>
-									<span class="ml-4 text-xs sm:text-sm">по оптовым ценам</span>
+									<span class="ml-4 px-2 text-xs sm:text-sm">по оптовым ценам</span>
 									<!-- Heroicon name: mini/chevron-right -->
 									<svg
 										aria-hidden="true"
@@ -420,13 +419,16 @@
 								<h1
 									class="mt-4 text-2xl font-bold tracking-tight text-white sm:mt-5 sm:text-5xl lg:mt-6"
 								>
-									<span class="block text-center text-white">Компания "БИОХИМ"</span>
+									<span class="block text-left text-white">Компания "БИОХИМ"</span>
 									<!-- <span class="block text-cyan-100">ООО ТК "ФОРВАРД ЛАЙН"</span> -->
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<!-- TODO moderator -->
-								<p class="mt-8 text-base text-gray-100 sm:text-xl lg:text-lg xl:text-xl">
+								<p class="mt-8 text-base text-gray-100 sm:text-lg lg:text-lg xl:text-xl">
 									{content.main_text}
+								</p>
+								<p class="mt-1 text-base text-gray-100 sm:text-lg lg:text-lg xl:text-xl">
+									Вся продукция сопровождается сертификатами качества.
 								</p>
 
 								<div class=" py-12">
@@ -440,7 +442,7 @@
 													on:click={changeVisibleSelectBrand}
 													required
 													type="button"
-													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white px-4 py-3 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-base text-gray-800"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white px-4 py-2 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-base text-gray-800"
 													aria-haspopup="listbox"
 													aria-expanded="true"
 													aria-labelledby="listbox-label"
@@ -522,7 +524,7 @@
 											<input
 												required
 												bind:value={volume}
-												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+												class="block w-full rounded-md border-0 px-4 py-2 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 												id="volume"
 												placeholder="Желаемый объём"
 												type="text"
@@ -535,7 +537,7 @@
 													on:click={changeVisibleSelectContainer}
 													required
 													type="button"
-													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white px-4 py-3 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-base text-gray-800"
+													class="relative w-full cursor-default rounded-md border border-gray-300 bg-white px-4 py-2 text-left shadow-sm focus:border-cyan-500 focus:outline-none focus:ring-1 focus:ring-cyan-500 sm:text-base text-gray-800"
 													aria-haspopup="listbox"
 													aria-expanded="true"
 													aria-labelledby="listbox-label"
@@ -617,7 +619,7 @@
 											<input
 												required
 												bind:value={phone}
-												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+												class="block w-full rounded-md border-0 px-4 py-2 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 												id="phone"
 												placeholder="Телефон"
 												type="text"
@@ -631,7 +633,7 @@
 													<input
 														required
 														bind:value={email}
-														class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+														class="block w-full rounded-md border-0 px-4 py-2 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 														id="email"
 														placeholder="Почта"
 														type="email"
@@ -640,7 +642,7 @@
 
 												<div class="mt-3 sm:mt-0 sm:ml-3">
 													<button
-														class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+														class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-2 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 														type="submit"
 													>
 														Отправить запрос на цену
@@ -648,7 +650,7 @@
 												</div>
 											{:else}
 												<span
-													class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-3 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+													class="block w-full rounded-md bg-gradient-to-br from-blue-500 to-green-600 py-2 px-4 font-medium text-white shadow hover:from-teal-600 hover:to-cyan-700 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 												>
 													Заявка отправлена. Ожидайте ответа на почту.
 												</span>
@@ -705,7 +707,7 @@
 			</div>
 
 			<!-- Feature section with grid -->
-			<div class="relative bg-white py-16 sm:py-24 lg:py-32" id="3">
+			<div class="relative bg-white py-16 sm:py-24 lg:py-22" id="3">
 				<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
 					<h2 class="text-lg font-semibold text-cyan-600 text-center">Информация</h2>
 					<p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">
@@ -1149,7 +1151,7 @@
 								<!--									&lt;!&ndash;                        </p>&ndash;&gt;-->
 								<!--									<div class="mt-6">-->
 								<!--										<div class="rounded-md shadow">-->
-								<!--											<a href="#" class="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"> Отправить запрос</a>-->
+								<!--											<a href="#" class="flex items-center justify-center px-5 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900"> Отправить запрос</a>-->
 								<!--										</div>-->
 								<!--									</div>-->
 								<!--									<div class="mt-4 text-sm">-->
@@ -1179,7 +1181,7 @@
 					/>
 				</div>
 				<div
-					class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-32"
+					class="relative mx-auto max-w-md px-4 py-12 sm:max-w-7xl sm:px-6 sm:py-20 md:py-28 lg:px-8 lg:py-22"
 				>
 					<div class="md:ml-auto md:w-1/2 md:pl-10">
 						<h2 class="text-lg font-semibold text-gray-300">Поддержка</h2>
@@ -1194,7 +1196,7 @@
 							<div class="inline-flex rounded-md shadow">
 								<a
 									href="#1"
-									class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
+									class="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-2 text-base font-medium text-gray-900 hover:bg-gray-50"
 								>
 									Отправить запрос на цену
 									<!-- Heroicon name: mini/arrow-top-right-on-square -->
