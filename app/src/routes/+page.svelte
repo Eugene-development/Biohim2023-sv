@@ -387,7 +387,7 @@
 						<div
 							class=" max-w-md px-4 sm:max-w-3xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left"
 						>
-							<div class="mx-auto lg:py-24 py-12 bg-main bg-opacity-10 px-4">
+							<div class="mx-auto lg:py-24 py-12 bg-main bg-opacity-70 px-4">
 								<span
 									class="ml-28 inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
@@ -414,12 +414,12 @@
 								<h1
 									class="mt-4 text-2xl font-bold tracking-tight text-white sm:mt-5 sm:text-5xl lg:mt-6"
 								>
-									<span class="block text-center text-cyan-100">Компания "БИОХИМ"</span>
+									<span class="block text-center text-white">Компания "БИОХИМ"</span>
 									<!-- <span class="block text-cyan-100">ООО ТК "ФОРВАРД ЛАЙН"</span> -->
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<!-- TODO moderator -->
-								<p class="mt-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
+								<p class="mt-8 text-base text-gray-100 sm:text-xl lg:text-lg xl:text-xl">
 									{content.main_text}
 								</p>
 
