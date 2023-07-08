@@ -20,9 +20,11 @@
 	// const test = () => console.log(123);
 
 	let brands = [
-		{ id: 1, value: `Марка А`, unavailable: false },
-		{ id: 2, value: `Марка Б`, unavailable: false },
-		{ id: 3, value: `Медицинская`, unavailable: false }
+		{ id: 1, value: `Медицинская`, unavailable: false },
+		{ id: 2, value: `Марка А - 37%`, unavailable: false },
+		{ id: 3, value: `Марка Б - 37%`, unavailable: false },
+		{ id: 4, value: `Марка Б - 51%`, unavailable: false },
+		{ id: 5, value: `Марка В - 60%`, unavailable: false }
 	];
 
 	let containers = [
@@ -393,11 +395,11 @@
 								>
 									<span
 										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-3 py-1 text-xs sm:text-sm font-semibold leading-5 text-white"
-										>Перекись водорода по оптовым ценам</span
+										>Перекись водорода</span
 									>
-									<!-- <span class="ml-4 text-xs sm:text-sm">по оптовым ценам</span> -->
+									<span class="ml-4 text-xs sm:text-sm">по оптовым ценам</span>
 									<!-- Heroicon name: mini/chevron-right -->
-									<!-- <svg
+									<svg
 										aria-hidden="true"
 										class="ml-2 h-5 w-5 text-gray-700"
 										fill="currentColor"
@@ -409,7 +411,7 @@
 											d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
 											fill-rule="evenodd"
 										/>
-									</svg> -->
+									</svg>
 								</span>
 								<h1
 									class="mt-4 text-2xl font-bold tracking-tight text-white sm:mt-5 sm:text-5xl lg:mt-6"
