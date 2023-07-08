@@ -132,8 +132,10 @@
 						stroke-linejoin="round"
 					/>
 				</svg>
-				<span class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
-					>+7 (495) 080-80-80</span
+				<a
+					href="tel:+79302765650"
+					class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
+					>+7 (930) 276-56-50</a
 				>
 			</div>
 
@@ -152,9 +154,9 @@
 						d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
 					/>
 				</svg>
-				<a
+				<span
 					class="rounded-md pl-1 text-xs font-medium text-gray-100 sm:text-base md:text-lg"
-					href="tel:+79306888862">info@biohim.org</a
+					href="">biohim.org@yandex.ru</span
 				>
 			</div>
 		</div>
@@ -246,12 +248,12 @@
 													d="M21 3l-6 6m0 0V4m0 5h5M5 3a2 2 0 00-2 2v1c0 8.284 6.716 15 15 15h1a2 2 0 002-2v-3.28a1 1 0 00-.684-.948l-4.493-1.498a1 1 0 00-1.21.502l-1.13 2.257a11.042 11.042 0 01-5.516-5.517l2.257-1.128a1 1 0 00.502-1.21L9.228 3.683A1 1 0 008.279 3H5z"
 												/>
 											</svg>
-											<span class="text-gray-50 text-xs sm:text-lg font-bold"
-												>+7 (495) 080-8888</span
-											>
-											<!-- <a href="tel:+74950808101" class="text-gray-50 text-xs sm:text-lg font-bold "
-												>+7 (495) 080-81-01</a
+											<!-- <span class="text-gray-50 text-xs sm:text-lg font-bold"
+												>+7 (930) 276-56-50</span
 											> -->
+											<a href="tel:+79302765650" class="text-gray-50 text-xs sm:text-lg font-bold"
+												>+7 (930) 276-56-50</a
+											>
 										</div>
 										<div class="flex space-x-2 px-2 py-1 mx-1 rounded-md items-center antialiased">
 											<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
@@ -269,7 +271,7 @@
 													d="M3 19v-8.93a2 2 0 01.89-1.664l7-4.666a2 2 0 012.22 0l7 4.666A2 2 0 0121 10.07V19M3 19a2 2 0 002 2h14a2 2 0 002-2M3 19l6.75-4.5M21 19l-6.75-4.5M3 10l6.75 4.5M21 10l-6.75 4.5m0 0l-1.14.76a2 2 0 01-2.22 0l-1.14-.76"
 												/>
 											</svg>
-											<p class="text-gray-50 text-xs sm:text-xl font-bold">info@biohim.org</p>
+											<p class="text-gray-50 text-xs sm:text-xl font-bold">biohim.org@yandex.ru</p>
 										</div>
 									</div>
 								</div>
@@ -449,7 +451,7 @@
 													>
 														<!-- Heroicon name: mini/chevron-up-down -->
 														<svg
-															class="h-5 w-5 text-gray-400"
+															class="h-5 w-5 text-gray-800"
 															xmlns="http://www.w3.org/2000/svg"
 															viewBox="0 0 20 20"
 															fill="currentColor"
@@ -544,7 +546,7 @@
 													>
 														<!-- Heroicon name: mini/chevron-up-down -->
 														<svg
-															class="h-5 w-5 text-gray-400"
+															class="h-5 w-5 text-gray-800"
 															xmlns="http://www.w3.org/2000/svg"
 															viewBox="0 0 20 20"
 															fill="currentColor"
@@ -683,7 +685,7 @@
 						</p>
 						<p class="mx-auto mt-5 max-w-prose text-xl text-gray-700">
 							Перекись водорода производится на территории России, Турции, Индии, Китая, Финляндии и
-							поставляется напрямую с заводов изготовителей через наши склады.
+							поставляется напрямую с заводов изготовителей через наши склады в Дзержинске и Москве.
 						</p>
 					</div>
 					<div class="mt-12 -mb-10 sm:-mb-24 lg:-mb-80">
