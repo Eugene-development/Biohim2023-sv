@@ -1021,7 +1021,7 @@
 							>
 								<div class="flex-1 bg-white px-6 py-8 lg:p-12">
 									<h3 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
-										ООО ТК "ФОРВАРД ЛАЙН"
+										Компания "БИОХИМ"
 									</h3>
 									<p class="mt-6 text-base text-gray-700">
 										Более 8 лет мы занимаемся оптовой торговлей химической продукцией и, в
