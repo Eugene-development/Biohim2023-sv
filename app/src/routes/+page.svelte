@@ -28,14 +28,16 @@
 	];
 
 	let containers = [
-		{ id: 1, value: `Евро куб` },
-		{ id: 2, value: `Канистра 30 литров` }
+		{ id: 1, value: `Канистра 10 литров` },
+		{ id: 2, value: `Канистра 30 литров` },
+		{ id: 3, value: `Евро куб` }
 	];
 
 	let brandSelected = 'Выберите марку перекиси';
 	let containerSelected = 'Выберите тару';
 	let volume = '';
 	let email = '';
+	let phone = '';
 
 	const url = `/sendMainFormBH`;
 	// INFO: ENV file
@@ -512,6 +514,19 @@
 												{/if}
 											</div>
 										</div>
+
+										<div class="my-3">
+											<label for="volume" class="sr-only">Желаемый объём</label>
+											<input
+												required
+												bind:value={volume}
+												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
+												id="volume"
+												placeholder="Желаемый объём"
+												type="text"
+											/>
+										</div>
+
 										<div class="my-3">
 											<div class="relative mt-1">
 												<button
@@ -596,13 +611,13 @@
 										</div>
 
 										<div class="my-3">
-											<label for="volume" class="sr-only">Желаемый объём</label>
+											<label for="volume" class="sr-only">Телефон</label>
 											<input
 												required
-												bind:value={volume}
+												bind:value={phone}
 												class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
-												id="volume"
-												placeholder="Желаемый объём"
+												id="phone"
+												placeholder="Телефон"
 												type="text"
 											/>
 										</div>
@@ -610,13 +625,13 @@
 										<div class="sm:flex">
 											{#if $formEmail}
 												<div class="min-w-0 flex-1">
-													<label for="email" class="sr-only">Ваша почта</label>
+													<label for="email" class="sr-only">Почта</label>
 													<input
 														required
 														bind:value={email}
 														class="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 														id="email"
-														placeholder="Ваша почта"
+														placeholder="Почта"
 														type="email"
 													/>
 												</div>
