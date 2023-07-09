@@ -716,7 +716,7 @@
 					<p class="mx-auto mt-5 max-w-prose text-base sm:text-xl text-gray-700 text-center">
 						Перекись водорода или пероксид водорода (Н-О-О-Н) - прозрачная, бесцветная жидкость.
 						Используется только в водных растворах, и смешивающаяся с водой в любых соотношениях.
-						Плотность 1,4 г/см.
+						Плотность 1,4 г/см<sup>3</sup>.
 					</p>
 
 					<div class="mt-12">
@@ -1044,7 +1044,7 @@
 									<!-- <p class="mt-6 text-base text-gray-700">
 										Ведущий специалист: Ходаков Игорь Викторович
 									</p> -->
-									<!-- <div class="mt-8">
+									<div class="mt-8">
 										<div class="flex items-center">
 											<h3 class="flex-shrink-0 pr-4 bg-white text-2xl font-semibold text-cyan-600">
 												Реквизиты
@@ -1070,7 +1070,7 @@
 														/>
 													</svg>
 												</div>
-												<p class="ml-3 text-sm text-gray-700">ИНН xxxxx</p>
+												<p class="ml-3 text-sm text-gray-700">ИП Попугаев Илья Игоревич</p>
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
@@ -1089,7 +1089,7 @@
 														/>
 													</svg>
 												</div>
-												<p class="ml-3 text-sm text-gray-700">КПП xxxxxxx</p>
+												<p class="ml-3 text-sm text-gray-700">ИНН 861903101837</p>
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
@@ -1108,7 +1108,7 @@
 														/>
 													</svg>
 												</div>
-												<p class="ml-3 text-sm text-gray-700">ОГРН xxxxxxxx</p>
+												<p class="ml-3 text-sm text-gray-700">ОГРНИП 323861700054415</p>
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
@@ -1127,10 +1127,10 @@
 														/>
 													</svg>
 												</div>
-												<p class="ml-3 text-sm text-gray-700">Регистрация 10.04.2014</p>
+												<p class="ml-3 text-sm text-gray-700">ОКВЭД: 46.75</p>
 											</li>
 										</ul>
-									</div> -->
+									</div>
 								</div>
 								<!--								<div class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">-->
 								<!--									<p class="text-lg leading-6 font-medium text-gray-900"></p>-->
@@ -1181,7 +1181,7 @@
 							Сопровождение сделки
 						</p>
 						<p class="mt-3 text-lg text-gray-300">
-							Наши специалисты учавствует в процессе сделки от начала первой консультации до факта
+							Наши специалисты участвуют в процессе сделки от начала первой консультации до факта
 							фактической отгрузки перекиси водорода клиенту.
 						</p>
 						<div class="mt-8">
