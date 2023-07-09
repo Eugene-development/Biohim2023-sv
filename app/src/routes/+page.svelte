@@ -424,10 +424,10 @@
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<!-- TODO moderator -->
-								<p class="mt-8 text-base text-gray-100 sm:text-lg lg:text-lg xl:text-xl">
+								<p class="mt-8 text-base text-gray-100 sm:text-lg lg:text-lg xl:text-lg">
 									{content.main_text}
 								</p>
-								<p class="mt-1 text-base text-gray-100 sm:text-lg lg:text-lg xl:text-xl">
+								<p class="mt-1 text-base text-gray-100 sm:text-lg lg:text-lg xl:text-lg">
 									Вся продукция сопровождается сертификатами качества.
 								</p>
 
@@ -1022,30 +1022,29 @@
 								class="max-w-lg mx-auto rounded-lg shadow-lg shadow-gray-400 overflow-hidden lg:max-w-none lg:flex"
 							>
 								<div class="flex-1 bg-white px-6 py-8 lg:p-12">
-									<h3 class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight">
+									<h3 class="text-2xl font-bold text-gray-900 sm:text-4xl sm:tracking-tight">
 										Компания "БИОХИМ"
 									</h3>
 									<p class="mt-6 text-base text-gray-700">
-										Более 8 лет мы занимаемся оптовой торговлей химической продукцией и, в
-										частности, медицинской и технической перекисью водорода. За это время
-										зарекомендовали себя как надёжного и лояльного контрагента, с которым можно
-										иметь длительные деловые отношения. Приглашаем вас к взаимовыгодному
-										сотрудничеству на постоянной основе.
+										Компания "БИОХИМ" занимается оптовой торговлей химической продукцией и, в
+										частности, медицинской и технической перекисью водорода. Мы являемся надёжным и
+										лояльным контрагентом, с которым можно иметь длительные деловые отношения.
+										Приглашаем Вас к взаимовыгодному сотрудничеству на постоянной основе.
 									</p>
-									<p class="mt-6 text-base text-gray-700">
-										Юридический адрес: Нижегородская область, xxxxxxx
-									</p>
+									<!-- <p class="mt-6 text-base text-gray-700">
+										Наш адрес: Нижегородская область, xxxxxxx
+									</p> -->
 									<!-- <p class="mt-6 text-base text-gray-700">
 										Юридический адрес: Нижегородская область, г. Дзержинск, б-р Мира д. 27а, офис
 										302
 									</p> -->
-									<p class="mt-6 text-base text-gray-700">Директор: xxxxxx</p>
+									<!-- <p class="mt-6 text-base text-gray-700">Директор: xxxxxx</p> -->
 									<!-- <p class="mt-6 text-base text-gray-700">Директор: Смолина Анна Адольфовна</p> -->
-									<p class="mt-6 text-base text-gray-700">Ведущий специалист: xxxxxxx</p>
+									<!-- <p class="mt-6 text-base text-gray-700">Ведущий специалист: xxxxxxx</p> -->
 									<!-- <p class="mt-6 text-base text-gray-700">
 										Ведущий специалист: Ходаков Игорь Викторович
 									</p> -->
-									<div class="mt-8">
+									<!-- <div class="mt-8">
 										<div class="flex items-center">
 											<h3 class="flex-shrink-0 pr-4 bg-white text-2xl font-semibold text-cyan-600">
 												Реквизиты
@@ -1057,7 +1056,6 @@
 										>
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
-													<!-- Heroicon name: solid/check-circle -->
 													<svg
 														class="h-5 w-5 text-cyan-600"
 														xmlns="http://www.w3.org/2000/svg"
@@ -1073,12 +1071,10 @@
 													</svg>
 												</div>
 												<p class="ml-3 text-sm text-gray-700">ИНН xxxxx</p>
-												<!-- <p class="ml-3 text-sm text-gray-700">ИНН 5249133142</p> -->
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
-													<!-- Heroicon name: solid/check-circle -->
 													<svg
 														class="h-5 w-5 text-cyan-600"
 														xmlns="http://www.w3.org/2000/svg"
@@ -1094,12 +1090,10 @@
 													</svg>
 												</div>
 												<p class="ml-3 text-sm text-gray-700">КПП xxxxxxx</p>
-												<!-- <p class="ml-3 text-sm text-gray-700">КПП 524901001</p> -->
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
-													<!-- Heroicon name: solid/check-circle -->
 													<svg
 														class="h-5 w-5 text-cyan-600"
 														xmlns="http://www.w3.org/2000/svg"
@@ -1115,12 +1109,10 @@
 													</svg>
 												</div>
 												<p class="ml-3 text-sm text-gray-700">ОГРН xxxxxxxx</p>
-												<!-- <p class="ml-3 text-sm text-gray-700">ОГРН 1145249001853</p> -->
 											</li>
 
 											<li class="flex items-start lg:col-span-1">
 												<div class="flex-shrink-0">
-													<!-- Heroicon name: solid/check-circle -->
 													<svg
 														class="h-5 w-5 text-cyan-600"
 														xmlns="http://www.w3.org/2000/svg"
@@ -1138,7 +1130,7 @@
 												<p class="ml-3 text-sm text-gray-700">Регистрация 10.04.2014</p>
 											</li>
 										</ul>
-									</div>
+									</div> -->
 								</div>
 								<!--								<div class="py-8 px-6 text-center bg-gray-50 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">-->
 								<!--									<p class="text-lg leading-6 font-medium text-gray-900"></p>-->
@@ -1248,16 +1240,15 @@
 
 				<p class="mt-8 text-center text-base text-gray-400">
 					<span>
-						&copy; 2015-2022. Компания ООО ТК "xxxxxx"
-						<!-- &copy; 2015-2022. Компания ООО ТК "ФОРВАРД ЛАЙН" -->
+						&copy; Компания "БИОХИМ"
 
 						<a
 							class="rounded-md pl-1 text-xs font-medium text-gray-400 sm:text-base md:text-lg"
-							href="tel:+8888888888">+7 (495) 088-88-88</a
+							href="tel:+79302765650">+7 (930) 276-56-50</a
 						>
 					</span>
 
-					<br />Обслуживание сайта 8 (495) 8888888888
+					<!-- <br />Обслуживание сайта 8 (495) 8888888888 -->
 				</p>
 			</div>
 		</footer>
