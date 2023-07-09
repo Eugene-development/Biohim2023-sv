@@ -678,7 +678,7 @@
 			</div>
 
 			<!-- Feature section with screenshot -->
-			<div class="relative bg-gray-50 pt-16 sm:pt-24 lg:pt-32" id="2">
+			<div class=" bg-gray-50 pt-16 sm:pt-24 lg:pt-32" id="2">
 				<div class="mx-auto max-w-md px-4 text-center sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
 					<div>
 						<h2 class="text-lg font-semibold text-cyan-600">Производство</h2>
