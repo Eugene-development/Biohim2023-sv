@@ -52,7 +52,7 @@
 	};
 	async function sendEmail() {
 		try {
-			const data = { brand: brandSelected, container: containerSelected, volume, email };
+			const data = { brand: brandSelected, container: containerSelected, volume, email, phone };
 			changeVisibleFormEmail();
 
 			await axios.post(url, data, apiCRUD);
