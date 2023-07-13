@@ -20,7 +20,7 @@
 	// const test = () => console.log(123);
 
 	let brands = [
-		{ id: 1, value: `Медицинская`, unavailable: false },
+		{ id: 1, value: `Медицинская - 37%`, unavailable: false },
 		{ id: 2, value: `Марка А - 37%`, unavailable: false },
 		{ id: 3, value: `Марка Б - 37%`, unavailable: false },
 		{ id: 4, value: `Марка Б - 51%`, unavailable: false },
@@ -758,6 +758,7 @@
 							</div>
 
 							<div class="pt-8 shadow-xl shadow-gray-900">
+								˚∑
 								<div class="flow-root bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
