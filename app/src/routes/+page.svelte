@@ -1250,7 +1250,7 @@
 						&copy; Компания "БИОХИМ"
 
 						<a
-							class="rounded-md pl-1 text-xs font-medium text-gray-400 sm:text-base md:text-lg"
+							class="rounded-md pl-1 text-xs font-medium text-gray-400 sm:text-base"
 							href="tel:+79302765650">+7 (930) 276-56-50</a
 						>
 					</span>
