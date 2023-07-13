@@ -77,21 +77,21 @@
 		'Техническая перекись водорода применяются в разных отраслях промышленности и в быту';
 	const b_text_v2 = 'Техническая перекись водорода';
 
-	export let content = {
-		title,
-		description,
-		main_text,
-		a_text,
-		b_text
-	};
-
 	// export let content = {
-	// 	title: title_v2,
-	// 	description: description_v2,
-	// 	main_text: main_text_v2,
-	// 	a_text: a_text_v2,
-	// 	b_text: b_text_v2
+	// 	title,
+	// 	description,
+	// 	main_text,
+	// 	a_text,
+	// 	b_text
 	// };
+
+	export let content = {
+		title: title_v2,
+		description: description_v2,
+		main_text: main_text_v2,
+		a_text: a_text_v2,
+		b_text: b_text_v2
+	};
 </script>
 
 <svelte:head>
@@ -745,14 +745,13 @@
 											</span>
 										</div>
 										<h3 class="mt-8 text-xl font-medium tracking-tight text-gray-50">Продукция</h3>
-										<p class="mt-5 text-base text-gray-50">
+										<!-- <p class="mt-5 text-base text-gray-50">
 											Перекись водорода: медицинская-37%, марка А-37%, марка Б-37%, марка Б-51%,
 											марка В-60%
-										</p>
-										<!-- <p class="mt-5 text-base text-gray-50">
-											Перекись для мед. нужд (35‑40%) и техническая перекись водорода марки
-											А(35‑40%) и Б(30‑40%)
 										</p> -->
+										<p class="mt-5 text-base text-gray-50">
+											Перекись водорода: марка А-37%, марка Б-37%, марка Б-51%, марка В-60%
+										</p>
 									</div>
 								</div>
 							</div>
