@@ -760,7 +760,6 @@
 							</div>
 
 							<div class="pt-8 shadow-xl shadow-gray-900">
-								˚∑
 								<div class="flow-root bg-main px-6 pb-8">
 									<div class="-mt-6">
 										<div>
