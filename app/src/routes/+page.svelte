@@ -134,7 +134,7 @@
 				<a
 					href="tel:+79302765650"
 					class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
-					>+7 (930) 276-56-50</a
+					>+7 (495) 790-40-95</a
 				>
 			</div>
 
@@ -251,7 +251,7 @@
 												>+7 (930) 276-56-50</span
 											> -->
 											<a href="tel:+79302765650" class="text-gray-50 text-xs sm:text-lg font-bold"
-												>+7 (930) 276-56-50</a
+												>+7 (495) 790-40-95</a
 											>
 										</div>
 										<div class="flex space-x-2 px-2 py-1 mx-1 rounded-md items-center antialiased">
@@ -689,7 +689,7 @@
 							Производство перекиси водорода
 						</p>
 						<p class="mx-auto mt-5 max-w-prose text-base sm:text-xl text-gray-700">
-							Перекись водорода производится на территории России, Турции, Индии, Китая, Финляндии и
+							Перекись водорода производится на территории России, Индии, Кореи, Финляндии и
 							поставляется напрямую с заводов изготовителей через наши склады в Дзержинске и Москве.
 						</p>
 					</div>
