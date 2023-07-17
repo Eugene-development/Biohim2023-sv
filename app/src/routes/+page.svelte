@@ -134,13 +134,8 @@
 				<a
 					href="tel:+79302765650"
 					class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
-					>+7 (930) 276-56-50</a
-				>
-				<!-- <a
-					href="tel:+79302765650"
-					class="rounded-md pl-1 text-xs font-medium text-gray-200 sm:text-base md:text-lg"
 					>+7 (495) 790-40-95</a
-				> -->
+				>
 			</div>
 
 			<div class="flex">
@@ -256,11 +251,8 @@
 												>+7 (930) 276-56-50</span
 											> -->
 											<a href="tel:+79302765650" class="text-gray-50 text-xs sm:text-lg font-bold"
-												>+7 (930) 276-56-50</a
-											>
-											<!-- <a href="tel:+79302765650" class="text-gray-50 text-xs sm:text-lg font-bold"
 												>+7 (495) 790-40-95</a
-											> -->
+											>
 										</div>
 										<div class="flex space-x-2 px-2 py-1 mx-1 rounded-md items-center antialiased">
 											<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
