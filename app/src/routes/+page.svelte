@@ -397,17 +397,17 @@
 						>
 							<div class="mx-auto lg:py-24 py-12 bg-main bg-opacity-70 px-4">
 								<span
-									class="inline-flex items-center rounded-full bg-black p-1.5 pr-2 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
+									class="inline-flex items-center rounded-full bg-black p-1.5 pr-1 text-white hover:text-gray-200 sm:text-base lg:text-sm xl:text-base"
 								>
 									<span
-										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-3 md:px-6 py-1 text-xs sm:text-sm font-semibold leading-5 text-white"
+										class="rounded-full bg-gradient-to-br from-blue-500 to-green-600 px-2 md:px-6 py-1 text-xs sm:text-sm font-semibold leading-5 text-white"
 										>Перекись водорода</span
 									>
-									<span class="ml-4 px-2 text-xs sm:text-sm">по оптовым ценам</span>
+									<span class="ml-2 px-2 text-xs sm:text-sm">низкие цены</span>
 									<!-- Heroicon name: mini/chevron-right -->
 									<svg
 										aria-hidden="true"
-										class="ml-2 h-5 w-5 text-gray-700"
+										class="h-4 w-4 text-gray-700"
 										fill="currentColor"
 										viewBox="0 0 20 20"
 										xmlns="http://www.w3.org/2000/svg"
@@ -420,14 +420,14 @@
 									</svg>
 								</span>
 								<h1
-									class="mt-4 text-3xl font-bold tracking-tight text-white sm:mt-5 sm:text-5xl lg:mt-6"
+									class="mt-4 text-2xl font-bold tracking-tight text-white sm:mt-5 sm:text-5xl lg:mt-6"
 								>
 									<span class="block text-left text-white">Компания "БИОХИМ"</span>
 									<!-- <span class="block text-cyan-100">ООО ТК "ФОРВАРД ЛАЙН"</span> -->
 									<!--                                    <span class="block bg-gradient-to-r from-teal-200 to-cyan-400 bg-clip-text pb-3 text-transparent sm:pb-5">Н<span class="text-lg">2</span>O<span class="text-lg">2</span></span>-->
 								</h1>
 								<!-- TODO moderator -->
-								<p class="mt-8 text-sm text-gray-100 sm:text-lg">
+								<p class="mt-8 text-xs text-gray-100 sm:text-lg">
 									{content.main_text}
 								</p>
 								<p class="mt-1 text-sm text-gray-100 sm:text-lg">
