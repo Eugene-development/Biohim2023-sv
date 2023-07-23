@@ -624,7 +624,7 @@
 												bind:value={phone}
 												class="block w-full rounded-md border-0 px-4 py-2 text-base text-gray-900 placeholder-gray-800 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900"
 												id="phone"
-												placeholder="Телефон"
+												placeholder="Телефон (не обязательно)"
 												type="text"
 											/>
 										</div>
