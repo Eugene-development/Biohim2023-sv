@@ -44,6 +44,7 @@
 
 	const apiCRUD = {
 		// baseURL: 'http://127.0.0.1:8000/',
+		// baseURL: 'http://localhost:7721/',
 		baseURL: 'https://larux.ru:7721/',
 
 		headers: {
